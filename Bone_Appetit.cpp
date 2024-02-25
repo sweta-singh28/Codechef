@@ -4,8 +4,8 @@ using namespace std;
 int main() {
 	// your code goes here
 	int n, m, x, y, z, c, sum;
-	cin>>n, m;
-	cin>>x, y;
+	cin>>n>>m;
+	cin>>x>>y;
 	 
 	z = n * x;
 	c = m * y;
