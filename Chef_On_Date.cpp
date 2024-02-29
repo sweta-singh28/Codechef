@@ -9,11 +9,11 @@ int main() {
 	    int x, y;
 	    cin>>x>>y;
 	    if(x<y){
-	        cout<<"NO"<<endl;
+	        cout<<"NO."<<endl;
 	    }
 	    else
 	    {
-	    cout<<"YES"<<endl;
+	    cout<<"YES."<<endl;
 	    }
 	}
 
