@@ -11,10 +11,10 @@ int main(){
         cin>>X;
         if (X == 6)
         {
-            cout<<"Yes"<<endl;
+            cout<<"YES"<<endl;
         }
         else{
-            cout<<"No"<<endl;
+            cout<<"NO"<<endl;
         }
     }
     return 0;
