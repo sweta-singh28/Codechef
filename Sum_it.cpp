@@ -10,10 +10,10 @@ int main() {
 	    cin>>a>>b;
 	    c = a + b;
 	    if(a + b == c){
-	        cout<<"YES"<<endl;
+	        cout<<"YES."<<endl;
 	    }
 	    else{
-	        cout<<"NO"<<endl;
+	        cout<<"NO."<<endl;
 	    }
 	}
 
