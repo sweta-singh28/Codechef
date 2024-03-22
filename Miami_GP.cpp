@@ -6,14 +6,15 @@ int main() {
 	int t;
 	cin>>t;
 	while(t--){
-	    int a, b, c;
-	    cin>>a>>b>>c;
-	    if(a + b == c){
+	    int x,y;
+	    cin>>x>>y;
+	    if(y<=(107*x)/100){
 	        cout<<"YES"<<endl;
 	    }
 	    else{
 	        cout<<"NO"<<endl;
 	    }
+	    
 	}
 
 }

@@ -3,17 +3,20 @@ using namespace std;
 
 int main() {
 	// your code goes here
-	int t;
+	int t; 
 	cin>>t;
 	while(t--){
-	    int a, b, c;
-	    cin>>a>>b>>c;
-	    if(a + b == c){
-	        cout<<"YES"<<endl;
+	    int x;
+	    cin>>x;
+	    if(x>=1000){
+	        cout<<x/10<<endl;
 	    }
 	    else{
-	        cout<<"NO"<<endl;
+	        cout<<100<<endl;
 	    }
+	
+	    
 	}
+
 
 }

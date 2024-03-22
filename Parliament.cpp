@@ -6,14 +6,15 @@ int main() {
 	int t;
 	cin>>t;
 	while(t--){
-	    int a, b, c;
-	    cin>>a>>b>>c;
-	    if(a + b == c){
+	    int n, x;
+	    cin>>n>>x;
+	    if(x>=(n/2+n%2)){
 	        cout<<"YES"<<endl;
 	    }
 	    else{
 	        cout<<"NO"<<endl;
 	    }
+	    
 	}
 
 }
