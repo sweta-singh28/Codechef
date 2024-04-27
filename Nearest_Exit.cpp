@@ -9,10 +9,10 @@ int main() {
 	    int x;
 	    cin>>x;
 	    if(x<=50){
-	        cout<<"LEFT"<<endl;
+	        cout<<"LEFT."<<endl;
 	    }
 	    else{
-	        cout<<"RIGHT"<<endl;
+	        cout<<"RIGHT."<<endl;
 	    }
 	    
 	}
