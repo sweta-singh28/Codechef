@@ -9,13 +9,13 @@ int main() {
 	    int x;
 	    cin>>x;
 	    if(x<=3){
-	        cout<<"BRONZE"<<endl;
+	        cout<<"BRONZE."<<endl;
 	    }
 	    else if(x>3 && x<=6){
-	        cout<<"SILVER"<<endl;
+	        cout<<"SILVER."<<endl;
 	    }
 	    else{
-	        cout<<"GOLD"<<endl;
+	        cout<<"GOLD."<<endl;
 	    }
 	}
 
