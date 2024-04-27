@@ -9,10 +9,10 @@ int main() {
 	    int n;
 	    cin>>n;
 	    if(n%4 == 0){
-	        cout<<"Good"<<endl;
+	        cout<<"good"<<endl;
 	    }
 	    else{
-	        cout<<"Not Good"<<endl;
+	        cout<<"not good"<<endl;
 	    }
 	    
 	}
