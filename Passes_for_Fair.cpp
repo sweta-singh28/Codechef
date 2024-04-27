@@ -9,10 +9,10 @@ int main() {
         int n, k;
         cin>>n>>k;
         if(k>n){
-            cout<<"YES"<<endl;
+            cout<<"yes"<<endl;
         }
         else{
-            cout<<"NO"<<endl;
+            cout<<"no"<<endl;
         }
 	}
 
