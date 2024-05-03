@@ -9,10 +9,10 @@ int main() {
 	    int w,x,y,z;
 	    cin>>w>>x>>y>>z;
 	    if(w+z*y>x){
-	        cout<<"overflow"<<endl;
+	        cout<<"Overflow"<<endl;
 	    }
 	    else if(w+z*y == x){
-	       cout<<"filled"<<endl;
+	       cout<<"Filled"<<endl;
 	    }
 	    else{
 	        cout<<"Unfilled"<<endl;
