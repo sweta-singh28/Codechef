@@ -9,13 +9,13 @@ int main() {
 	    int x,y;
 	    cin>>x>>y;
 	    if(x>y){
-	        cout<<"CAR."<<endl;
+	        cout<<"CAR"<<endl;
 	    }
 	    else if(y>x){
-	        cout<<"BIKE."<<endl;
+	        cout<<"BIKE"<<endl;
 	    }
 	    else{
-	        cout<<"SAME."<<endl;
+	        cout<<"SAME"<<endl;
 	    }
 	}
 
