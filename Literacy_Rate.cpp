@@ -6,9 +6,11 @@ int main() {
 	int t;
 	cin>>t;
 	while(t--){
-	    int a,b,c,x;
-	    cin>>a>>b>>c>>x;
-	    if(a+b>=x || a+c>=x || b+c>=x){
+	    int p,l;
+	    cin>>p>>l;
+	    double divide=(double)l/(double)p;
+	    
+	    if(divide*100 >= 75){
 	        cout<<"YES"<<endl;
 	    }
 	    else{

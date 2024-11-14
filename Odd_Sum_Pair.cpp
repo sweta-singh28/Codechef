@@ -6,9 +6,9 @@ int main() {
 	int t;
 	cin>>t;
 	while(t--){
-	    int a,b,c,x;
-	    cin>>a>>b>>c>>x;
-	    if(a+b>=x || a+c>=x || b+c>=x){
+	    int a,b,c;
+	    cin>>a>>b>>c;
+	    if((a+b)%2 != 0 || (a+c)%2 != 0 || (b+c)%2 !=0){
 	        cout<<"YES"<<endl;
 	    }
 	    else{

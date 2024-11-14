@@ -6,13 +6,13 @@ int main() {
 	int t;
 	cin>>t;
 	while(t--){
-	    int a,b,c,x;
-	    cin>>a>>b>>c>>x;
-	    if(a+b>=x || a+c>=x || b+c>=x){
-	        cout<<"YES"<<endl;
+	    int n,m,k;
+	    cin>>n>>m>>k;
+	    if(m*k>=n){
+	        cout<<"Yes"<<endl;
 	    }
 	    else{
-	        cout<<"NO"<<endl;
+	        cout<<"No"<<endl;
 	    }
 	}
 

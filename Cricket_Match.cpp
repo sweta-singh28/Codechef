@@ -6,14 +6,15 @@ int main() {
 	int t;
 	cin>>t;
 	while(t--){
-	    int a,b,c,x;
-	    cin>>a>>b>>c>>x;
-	    if(a+b>=x || a+c>=x || b+c>=x){
+	    int n,m;
+	    cin>>n>>m;
+	    if((6*6)*m >= n){
 	        cout<<"YES"<<endl;
 	    }
 	    else{
 	        cout<<"NO"<<endl;
 	    }
+	    
 	}
 
 }
