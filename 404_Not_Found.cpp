@@ -6,7 +6,7 @@ int main() {
     int X;
     cin>>X;
     if( X == 404){
-        cout<<"NOT FOUND"<<endl;
+        cout<<"NOT  FOUND"<<endl;
     }
     else{
         cout<<"FOUND"<<endl;
